@@ -1,0 +1,17 @@
+{
+  "name": "app-scraper",
+  "version": "1.0.0",
+  "description": "A microservice for scraping app data from Google Play or the App Store",
+  "main": "index.js",
+  "author": "dscout",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dscout/scrape.git"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "cheerio": "^0.19.0",
+    "request-promise": "^1.0.0"
+  }
+}
