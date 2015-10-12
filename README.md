@@ -11,6 +11,8 @@ TBD
 
 ```json
 {
+  "app_type": "Android",
+  "company": "dscout",
   "name": "dscout",
   "icon": "https://lh3.ggpht.com/JAzNGzx6uMwHj8C4RL7FkjHWXrsRaNhgzUwUeS8Ljs9ASJvBf9VYKLPu86mU33nyll4=w300",
   "price": "0",
