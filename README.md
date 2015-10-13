@@ -5,7 +5,9 @@ Store.
 
 ### Request
 
-TBD
+```
+$ curl -X POST -H "Content-Type: application/json" -d '{ "url": "https://play.google.com/store/apps/details?id=com.vokal.dscout" }' https://950bxr0yk0.execute-api.us-east-1.amazonaws.com/prod/scrape
+```
 
 ### Response
 
@@ -29,3 +31,18 @@ TBD
   ]
 }
 ```
+
+### Deployment
+
+Create a new .zip archive using the script
+```
+$ npm run zip
+```
+
+Navigate to the [AWS Lambda dashboard](https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions/scrape)
+
+Click the "Upload" button and select the newly created .zip archive
+![Upload](/screenshots/lambda-1.png)
+
+Click the "Test" button to invoke the function, or make a request to the API endpoint
+![API](/screenshots/lambda-2.png)
